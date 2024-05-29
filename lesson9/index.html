@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+
+    <div>
+        <form action="/registration" method="POST">
+            <div>
+                <label for="firstName">FirstName: </label>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+
+            <div>
+                <label for="age">age: </label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <button id="btn">Register</button>
+        </form>
+    </div>
+</body>
+</html>
